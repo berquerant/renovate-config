@@ -1,0 +1,25 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "config:recommended",
+    ":label(renovate)",
+    ":disableDependencyDashboard",
+    ":prConcurrentLimit10",
+    ":prHourlyLimitNone",
+    ":timezone(Asia/Tokyo)",
+    "schedule:weekends",
+    "helpers:pinGitHubActionDigests",
+    ":rebaseStalePrs",
+    ":noUnscheduledUpdates"
+  ],
+  "automerge": false,
+  "minimumReleaseAge": "14 days",
+  "internalChecksFilter": "strict",
+  "fetchChangeLogs": "off",
+  "rangeStrategy": "bump",
+  "digest": {"addLabels": ["digest"]},
+  "pin": {"addLabels": ["pin"]},
+  "patch": {"addLabels": ["patch"]},
+  "minor": {"addLabels": ["minor"]},
+  "major": {"addLabels": ["major"]}
+}

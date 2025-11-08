@@ -9,7 +9,6 @@
     ":timezone(Asia/Tokyo)",
     "schedule:weekends",
     "helpers:pinGitHubActionDigests",
-    ":rebaseStalePrs",
     ":noUnscheduledUpdates"
   ],
   "automerge": false,

@@ -13,7 +13,7 @@
     ":noUnscheduledUpdates"
   ],
   "automerge": false,
-  "minimumReleaseAge": "14 days",
+  "minimumReleaseAge": "7 days",
   "internalChecksFilter": "strict",
   "fetchChangeLogs": "off",
   "rangeStrategy": "bump",

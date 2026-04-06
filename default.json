@@ -12,9 +12,9 @@
     ":noUnscheduledUpdates"
   ],
   "automerge": false,
-  "minimumReleaseAge": "7 days",
-  "minimumReleaseAgeBehaviour": "timestamp-optional",
-  "internalChecksFilter": "flexible",
+  "minimumReleaseAge": "14 days",
+  "minimumReleaseAgeBehaviour": "timestamp-required",
+  "internalChecksFilter": "strict",
   "fetchChangeLogs": "off",
   "rangeStrategy": "bump",
   "digest": {"addLabels": ["digest"]},

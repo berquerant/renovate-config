@@ -17,6 +17,13 @@
       "matchUpdateTypes": [
         "patch"
       ]
+    },
+    {
+      "automerge": true,
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": [
+        "minor"
+      ]
     }
   ],
   "platformAutomerge": true,

@@ -4,13 +4,13 @@
     "config:recommended",
     ":label(renovate)",
     ":disableDependencyDashboard",
-    ":prConcurrentLimit10",
     ":prHourlyLimitNone",
     ":timezone(Asia/Tokyo)",
     "schedule:weekends",
     "helpers:pinGitHubActionDigests",
     ":noUnscheduledUpdates"
   ],
+  "prConcurrentLimit": 20,
   "packageRules": [
     {
       "automerge": true,

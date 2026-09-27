@@ -27,7 +27,7 @@
     }
   ],
   "platformAutomerge": true,
-  "minimumReleaseAge": "14 days",
+  "minimumReleaseAge": "3 days",
   "minimumReleaseAgeBehaviour": "timestamp-required",
   "internalChecksFilter": "strict",
   "fetchChangeLogs": "off",
